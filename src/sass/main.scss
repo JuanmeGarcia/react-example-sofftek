@@ -1,0 +1,26 @@
+@import './navbar';
+@import './config';
+@import './form';
+@import './logo';
+@import './login';
+@import './register';
+@import './dashboard';
+@import './info';
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.input{
+    gap: .5rem;
+    border-radius: 7px !important;
+}
+
+#root{
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}

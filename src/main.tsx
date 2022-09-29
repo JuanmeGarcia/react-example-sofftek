@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import { DashboardContextProvider } from './context/useDashboardContext'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <DashboardContextProvider>
+      <App />
+    </DashboardContextProvider>
   </React.StrictMode>
 )
